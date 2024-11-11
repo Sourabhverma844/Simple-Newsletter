@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppin",sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+#Full{
+    align-items: center;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+}
+#Box1{
+    align-items: center;
+    width:700px;
+    height:250px;
+    background-color: white;
+}
+#Box2{
+    padding: 25px;
+    justify-self: center;
+    width: 555px;
+    height: 240px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03), 0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+}
+img {
+    width: 38px;
+    height: auto;
+    margin-left: 331px;
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 48px;
+    font-weight: 600;
+}
+h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6C727F;
+}
+#mail{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F9FAFB;
+    border-color: #F9FAFB;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    text-align: center;
+    
+}
+#mail::placeholder{
+    font-size: 16px;
+    font-weight: 600;
+    color: #6C727F;
+}
+
+#click {
+    margin-top: 25px;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #284BCE;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+p{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #6C727F;
+}
